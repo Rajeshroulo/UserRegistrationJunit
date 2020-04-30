@@ -42,14 +42,14 @@ public class UserRegistrationTest {
     @Test
     public void givenFirstName_WhenHasNumber_ShouldReturnFalse() {
         UserRegistration userRegistration = new UserRegistration();
-        boolean result = userRegistration.validateFirstName("Raad1df");
+        boolean result = userRegistration.validateFirstName("Raje1sh");
         Assert.assertFalse(result);
     }
 
     @Test
     public void givenFirstName_WhenHasSpecialChar_ShouldReturnFalse() {
         UserRegistration userRegistration = new UserRegistration();
-        boolean result = userRegistration.validateFirstName("Raj$mjf");
+        boolean result = userRegistration.validateFirstName("Raj$djr");
         Assert.assertFalse(result);
     }
 
