@@ -63,7 +63,7 @@ public class UserRegistrationTest {
     @Test
     public void givenLastName_WhenLessThanThreeChars_ShouldReturnFalse() {
         UserRegistration userRegistration = new UserRegistration();
-        boolean result = userRegistration.validateLastName("Ro");
+        boolean result = userRegistration.validateLastName("Lo");
         Assert.assertFalse(result);
     }
 
