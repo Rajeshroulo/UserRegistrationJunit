@@ -109,7 +109,7 @@ public class UserRegistrationTest {
     @Test
     public void givenMobileNum_WhenSpaceNotMentioned_ShouldReturnTrue() {
         UserRegistration userRegistration = new UserRegistration();
-        boolean result = userRegistration.validateMobileNumber("917680002101");
+        boolean result = userRegistration.validateMobileNumber("919542048044");
         Assert.assertTrue(result);
     }
 
